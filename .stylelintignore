@@ -1,0 +1,10 @@
+{
+  "lint-staged": {
+    "*.{js,vue}": [
+      "vue-cli-service lint"
+    ],
+    "*.{less,vue}": [
+      "stylelint"
+    ]
+  }
+}
